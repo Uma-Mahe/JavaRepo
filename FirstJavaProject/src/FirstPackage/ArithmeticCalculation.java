@@ -15,7 +15,7 @@ public class ArithmeticCalculation {
 		int sum = A + B;
 		int difference = A - B;
 		int product = A*B;
-		int average = (A + B)/2;
+		double average = (double)(A + B)/2;
 		int distance = Math.abs(A - B);
 		int max = Math.max(A, B);
 		int min = Math.min(A, B);
