@@ -8,14 +8,26 @@ public class FactorOfNumber {
 	public  void main() {
 		
 		Scanner scn = new Scanner(System.in);
-		
-		System.out.print("Enter a Number : ");
+				System.out.print("Enter a Number : ");
 		int value = scn.nextInt();
-		
-		for (int i = 1; i <= value ; i++) {
-			if ((value % i) == 0) {
-				System.out.println("Factor of the Number : " + i);
+		if (value % 2 != 0) {
+			for (int i = 1; i <= value/2 ; i=i+2) {
+				//System.out.println("i : " + i);
+				if ((value % i) == 0) {
+				System.out.println(i + " ");
+				}
 			}
 		}
+		else {
+			for (int i = 1; i <= value/2 ; ++i) {
+				//System.out.println("i : " + i);
+				if ((value % i) == 0) {
+				System.out.println(i + " ");
+				}
+			}
+		
+		}
+		
+		System.out.println(value);
 	}
 }
