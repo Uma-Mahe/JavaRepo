@@ -3,7 +3,7 @@ package Assignment;
 
 import java.util.Scanner;
 
-public class NoOfDaysOfMOnth {
+public class NoOfDaysOfMonth {
 	public static void main(String[] args) {
 		
 		Scanner scn = new Scanner(System.in);
