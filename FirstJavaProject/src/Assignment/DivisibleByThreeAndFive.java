@@ -1,6 +1,6 @@
 package Assignment;
 
-public class DvisibleByThreeAndFive {
+public class DivisibleByThreeAndFive {
 	public static void main(String[] args) {
 		System.out.println("Divided by 3 : ");
 		for (int i =1; i<=100; i++) {
