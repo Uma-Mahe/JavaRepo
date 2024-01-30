@@ -6,14 +6,14 @@ public class SumOfDigits {
 		Scanner scn = new Scanner(System.in);
 		
 		System.out.print("Enter an integer : ");
-		int N = scn.nextInt();
+		int number = scn.nextInt();
 		int sum = 0;
 		int value = 0;
-		
-		while (N != 0) {
-			value = N%10;
+
+		while (number != 0) {
+			value = number % 10;
 			sum = sum + value;
-			N = N/10;
+			number = number/10;
 		}
 		
 		System.out.println("Sum of the digits in integer: " + sum);
