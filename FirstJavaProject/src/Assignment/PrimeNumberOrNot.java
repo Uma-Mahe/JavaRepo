@@ -17,8 +17,6 @@ public class PrimeNumberOrNot {
 		for (int i=2 ; i<=value/2 ; i++) {
 			
 			int reminder = value % i ;
-			System.out.println(i);
-			
 			if (reminder == 0 ) {
 				System.out.println("The integer " + value + " is not Prime Number" );
 				flag = 1;
