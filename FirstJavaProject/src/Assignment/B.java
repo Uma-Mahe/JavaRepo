@@ -8,6 +8,7 @@ class A10 {
 class B{
 	public static void main(String[] args) {
 		A10 a1 =new A10();
-		System.out.println(a1.add(a1.add(10,20), a1.add(30,40)));
+		a1.add(a1.add(10,20), a1.add(30,40));
 	}
 }
+// we can call method as argument of a method and got executed 
