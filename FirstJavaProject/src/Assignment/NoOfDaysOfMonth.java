@@ -12,14 +12,14 @@ public class NoOfDaysOfMonth {
 		int num = scn.nextInt();
 		System.out.print("Enter year in 4 digit : ");
 		int year = scn.nextInt();
-		int yearMod = year%4;
+		int leapYear = year%4;
 		
 		switch (num) {
 			case 1:
 				System.out.println("No of day in January is 31");
 				break;
 			case 2:
-				if (yearMod==0) {
+				if (leapYear == 0) {
 				System.out.println("No of day in February is 29");
 				break;
 				}
