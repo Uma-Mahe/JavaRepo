@@ -1,9 +1,19 @@
 package Assignment;
 
+import java.util.Scanner;
+
 public class BodmosOperator {
 	public static void main(String[] args) {
-		int i=6, j=1, k=2, m=7;
+		Scanner scn = new Scanner(System.in);
+		System.out.print("Enter the value for i : ");
+		int i=scn.nextInt();
+		System.out.print("Enter the value for j : ");
+		int j=scn.nextInt();
+		System.out.print("Enter the value for k : ");
+		int k=scn.nextInt();
+		System.out.print("Enter the value for m : ");
+		int m=scn.nextInt();
 		int result = ((i-j)*k)+m;
-		System.out.println(result);
+		System.out.println("Answer is : " + result);
 	}
 }
