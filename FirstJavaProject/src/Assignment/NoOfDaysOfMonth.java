@@ -25,6 +25,7 @@ public class NoOfDaysOfMonth {
 				}
 				else {
 					System.out.println("No of day in February is 28");
+					break;
 				}
 			case 3:
 				System.out.println("No of day in March is  31");
