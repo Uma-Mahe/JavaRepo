@@ -20,7 +20,6 @@ public class FirstLetterCapitalofString {
 		Scanner scn = new Scanner(System.in);
 		System.out.print("Enter the string : ");
 		String str = scn.nextLine();
-		System.out.println(str);
 		printFirstCaptalize(str);
 	}
 }
