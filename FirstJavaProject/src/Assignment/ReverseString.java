@@ -12,6 +12,13 @@ public class ReverseString {
 			char ch=str.charAt(i);
 			revStr=ch+revStr;
 		}
-		System.out.println(revStr);
+		System.out.println("Reverse string using nonrecursive : " + revStr);
+		System.out.println("Reverse string using recursive : " + recursiveReverse(str));
+		
+	}
+	public static String recursiveReverse(String str) {
+		if (str.isEmpty())
+			return str;
+		return recursiveReverse(str.substring(1))+str.charAt(0);
 	}
 }
